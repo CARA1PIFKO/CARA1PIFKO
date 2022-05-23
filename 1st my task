@@ -1,0 +1,26 @@
+cap_str = input('How many caps you want to buy?')
+cap = int(cap_str) 
+
+bonus = cap / 6
+
+bonus_int = int(bonus) 
+
+bonus_str = str(bonus_int)
+
+print("Wow " + bonus_str + " bonus caps you can get for free!!!")
+
+
+#if cap >= 6 and cap <= 11:
+#    print("You have Bonus cap of coffee!!!")
+#elif cap <= 5:
+#    print("not ok")
+#elif cap >= 12:
+#    print("You have 2 Bonus cap of coffee!!!")
+
+
+(translate below if you want to know the idea of this task) 
+
+Клиент покупает кофе в кафе. За каждые 6 чашек, 1 чашка даётся в качестве бонуса.
+
+Задача: запросить у пользователя кол-во чашек на покупку, вычислить полагающееся 
+    кол-во бонусных чашек кофе и вывести это число на консоль.
