@@ -1,0 +1,25 @@
+   Translate below
+  
+ 2. Запросить у пользователя координаты x и y двух точек на плоскости. Посчитать расстояние между заданными 
+    точками и вывести результат на консоль с точностью до трёх знаков после запятой (плавающей точки).
+
+       Примечание: у каждой точки есть две координаты: x и y. Расстояние рассчитывается по формуле, которую вы с 
+      лёгкостью найдёте в Интернете (да, гуглить всё, что вы не знаете - очень полезно!).
+ 
+ 
+ import math
+
+x = input("Write down your number1 ")
+z = input("Write down your number2 ") 
+a = input("Write down your number3 ")
+s = input("Write down your number4 ")
+
+x1 = float(x)
+z1 = float(z)
+a1 = float(a)
+s1 = float(s)
+
+
+distance = math.sqrt(((x1 - z1) ** 2) + ((a1 - s1) ** 2))
+
+print("Your Distance is {distance:1.3f}".format(distance = distance)) 
