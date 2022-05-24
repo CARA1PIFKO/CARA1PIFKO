@@ -1,21 +1,21 @@
-cap_str = input('How many caps you want to buy?')
-cap = int(cap_str) 
+cup_str = input('How many cups you want to buy?')
+cup = int(cup_str) 
 
-bonus = cap / 6
+bonus = cup / 6
 
 bonus_int = int(bonus) 
 
 bonus_str = str(bonus_int)
 
-print("Wow " + bonus_str + " bonus caps you can get for free!!!")
+print("Wow " + bonus_str + " bonus cups you can get for free!!!")
 
 
-#if cap >= 6 and cap <= 11:
-#    print("You have Bonus cap of coffee!!!")
-#elif cap <= 5:
+#if cup >= 6 and cup <= 11:
+#    print("You have Bonus cup of coffee!!!")
+#elif cup <= 5:
 #    print("not ok")
-#elif cap >= 12:
-#    print("You have 2 Bonus cap of coffee!!!")
+#elif cup >= 12:
+#    print("You have 2 Bonus cup of coffee!!!")
 
 
 (translate below if you want to know the idea of this task) 
